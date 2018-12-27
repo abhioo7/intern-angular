@@ -1,0 +1,12 @@
+﻿<div class="col-md-6 col-md-offset-3">
+    <h1>Home</h1>
+    <p>{{bodyText}}</p>
+    <button (click)="openModal('custom-modal-1')">Open Modal 1</button>
+</div>
+
+<jw-modal id="custom-modal-1">
+    <h1>A Custom Modal!</h1>
+     <h1>Reactive Forms</h1>
+     <book-form></book-form>
+     <button (click)="closeModal('custom-modal-1');">Close</button>
+</jw-modal>
